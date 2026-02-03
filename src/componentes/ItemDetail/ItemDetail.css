@@ -1,4 +1,4 @@
-.contenedorItem{
+.contenedorItem {
     box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     margin: 4rem auto ;
@@ -17,4 +17,15 @@ img{
 .contenedorItem h2 {
     margin: 0;
 
+}
+
+.finalizar {
+   padding: 7px;
+    background-color: white;
+    color: #ED7A77;
+    border-radius: 5px;
+    margin: 15px 0;
+    border: none;
+    box-shadow: 0 4px 24px 0 rgba(23, 22, 22, 0.299);
+  
 }

@@ -8,6 +8,7 @@ Este es un proyecto de ecommerce simple que realice en un curso de CoderHouse. L
 -React-Router-DOM
 -Firebase
 -Toastify
+-Bootstrap 
 
 ## Funcionalidades:
 

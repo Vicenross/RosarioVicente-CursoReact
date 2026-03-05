@@ -7,6 +7,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CarritoProvider } from "./context/CarritoContext";
 import Cart from "./componentes/Cart/cart";
 import Checkout from "./componentes/Checkout/checkout";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { ToastContainer } from "react-toastify";
 
 
 
@@ -24,6 +27,7 @@ const App = () => {
             <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </CarritoProvider>
+        <ToastContainer/>
       </BrowserRouter>
     </>
   )

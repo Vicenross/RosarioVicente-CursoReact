@@ -2,6 +2,8 @@ import { useState, useContext } from "react"
 import { CarritoContext } from "../../context/CarritoContext";
 import { db } from "../../services/Config";
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
+import "./Checkout.css"
+
 
 
 const Checkout = () => {
@@ -116,7 +118,7 @@ const Checkout = () => {
 
                 {error && <p>{error}</p>}
 
-                <button type="submit">Confirmar Compra</button>
+                <button className="botonConfirmar" type="submit">Confirmar Compra</button>
 
                 {ordenId && (
                     <strong>

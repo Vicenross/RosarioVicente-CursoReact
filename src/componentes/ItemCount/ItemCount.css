@@ -1,8 +1,7 @@
 div.contador {
     display: flex;
     flex-direction: row;
-    width: 20vh;
-    
+    width: 30vh;
     align-items: center;
     justify-content: space-between;
     
@@ -13,8 +12,13 @@ div.contador button {
     background-color: white;
     color: #ED7A77;
     border-radius: 5px;
-    margin: 15px 0;
+    margin: 15px 5px;
     border: none;
     box-shadow: 0 4px 24px 0 rgba(23, 22, 22, 0.299);
   
+}
+
+p {
+  text-align: center;
+  margin: auto !important;;
 }

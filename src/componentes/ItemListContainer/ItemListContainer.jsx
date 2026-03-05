@@ -5,7 +5,7 @@ import { db } from "../../services/Config"
 import { collection, getDocs, query, where } from "firebase/firestore"
 
 import { useParams } from "react-router-dom"
-import Loader from "../loader/loader"
+import Loader from "../loader/Loader"
 
 const ItemListContainer = () => {
 
